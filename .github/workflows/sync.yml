@@ -18,13 +18,13 @@ jobs:
     steps:
       # 拉取当前仓库
       - name: Checkout target repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       # 拉取 edgetunnel
       - name: Checkout edgetunnel
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: universeglitch/edgetunnel
           path: source
